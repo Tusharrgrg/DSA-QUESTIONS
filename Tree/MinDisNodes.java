@@ -1,5 +1,3 @@
-package Tree;
-
 import java.util.ArrayList;
 
 //Minimum Distance Between BST Nodes
