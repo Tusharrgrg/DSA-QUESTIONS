@@ -61,7 +61,7 @@ public class NumberofIslands {
             for (int Rdir = -1; Rdir < 2; Rdir++) {
                 for (int Cdir = -1; Cdir < 2; Cdir++) {
 
-                    if (Rdir != Math.abs(Cdir)) {
+                    if (Math.abs(Rdir) != Math.abs(Cdir)) {
                         int newRow = row + Rdir;
                         int newCol = col + Cdir;
 
