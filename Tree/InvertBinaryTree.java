@@ -44,11 +44,11 @@ public class InvertBinaryTree{
             node.left = node.right;
             node.right = left;
 
-            if(root.left!= null){
-                queue.offer(root.left);
+            if(node.left!= null){
+                queue.offer(node.left);
             }
-            if(root.right!= null){
-                queue.offer(root.right);
+            if(node.right!= null){
+                queue.offer(node.right);
             }
         }
         return root;
