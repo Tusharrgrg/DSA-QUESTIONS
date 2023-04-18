@@ -1,4 +1,6 @@
-import java.uti.*;
+
+
+import java.util.*;
 public class ReducingDishes_1402{
      public static int maxSatisfaction(int[] satisfaction) {
         Arrays.sort(satisfaction);
