@@ -1,4 +1,3 @@
-package DP;
 
 public class uniquePaths {
     public static void main(String[] args) {

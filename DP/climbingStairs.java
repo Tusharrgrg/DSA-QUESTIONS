@@ -1,4 +1,3 @@
-package DP;
 
 public class climbingStairs {
     public static void main(String[] args) {
